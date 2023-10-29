@@ -43,6 +43,11 @@ ul {
     margin: 0;
 }
 
+#secondary-text, .links {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .first .image {
     background-color: gray;
     border-radius: 10px;
@@ -67,6 +72,13 @@ button {
     align-items: center;
 }
 
+#info-header {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 0;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -78,6 +90,14 @@ button {
     border: 3px solid #3882f6;
     border-radius: 10px;
     height: 200px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 100;
 }
 
 .fourth {
