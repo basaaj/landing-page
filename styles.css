@@ -31,3 +31,38 @@ ul {
     gap: 16px;
 }
 
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 32px 56px;
+}
+
+#main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 700;
+    margin: 0;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+} 
+
+.second, .third {
+    flex-direction: column;
+    
+}
+
+.second {
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.fourth {
+    display: flex;
+}
