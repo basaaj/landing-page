@@ -47,6 +47,10 @@ ul {
 button {
     background-color: #3882f6;
     color: white;
+    font-size: 16px;
+    padding: 10px 18px;
+    border: 1px solid white;
+    border-radius: 8px;
 } 
 
 .second, .third {
@@ -65,4 +69,58 @@ button {
 
 .fourth {
     display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #3882f6;
+    margin: 16px auto;
+    border-radius: 8px;
 }
+
+/*
+
+.section-1 div {
+    flex-grow: 1;
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .images {
+    display: flex;
+    gap: 32px;
+}
+
+.section-2 .info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font: 36px italic #1f2937;
+}
+
+.section-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: #3882f6;
+    max-width: 800px;
+    margin: 16px auto;
+    gap: 16px;
+}
+
+.footer {
+    text-align: center;
+    padding: 32px;
+}
+
+*/
