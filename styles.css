@@ -14,10 +14,8 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
     max-width: 1000px;
     margin: 0 auto;
-    flex: 1;
     padding: 32px;
 }
 
@@ -31,6 +29,7 @@ body {
     font-size: 24px; 
     color: #f9faf8;
     font-weight: 500;
+    align-self: flex-start;
 }
 
 ul {
@@ -43,8 +42,10 @@ ul {
 
 .main {
     display: flex;
-    padding: 16px 0;
-    gap: 16px;
+    align-items: center;
+    padding: 64px 0;
+    margin-top: 32px;
+    gap: 32px;
 }
 
 #main-text {
@@ -62,29 +63,42 @@ ul {
 .main .image {
     background-color: gray;
     border-radius: 10px;
-    height: 200px;
-    width: 400px;
+    height: 300px;
+    width: 100%;
 }
 
 button {
     background-color: #3882f6;
     color: white;
     font-size: 16px;
+    font-weight: 700;
     padding: 10px 18px;
     border: 1px solid white;
     border-radius: 8px;
+    max-height: 48px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-self: center;
 }
 
 #info-header {
+    align-self: center;
     font-size: 36px;
     font-weight: 700;
     color: #1f2937;
-    margin-bottom: 16px;
+    margin-top: 32px;
+    margin-bottom: 64px;
+}
+
+.info {
+    text-align: center;
 }
 
 .images {
     display: flex;
+    justify-content: center;
     gap: 32px;
+    margin-bottom: 64px;
 }
 
 .images .image {
@@ -102,6 +116,18 @@ button {
     font-weight: 100;
 }
 
+#quote .container {
+    align-items: center;
+    margin: 32px auto;
+}
+
+#author {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    align-self: flex-end;
+}
+
 #cta .container {
     flex-direction: row;
     justify-content: center;
@@ -111,4 +137,13 @@ button {
     margin: 56px auto;
     border-radius: 8px;
     width: 50%;
+}
+
+#cta-text {
+    font-size: larger;
+    margin-bottom: 8px;
+}
+
+.footer {
+    text-align: center;
 }
